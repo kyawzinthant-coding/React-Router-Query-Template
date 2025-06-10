@@ -1,11 +1,12 @@
 import { lazy, Suspense } from 'react';
 import { createBrowserRouter } from 'react-router';
+import LoadingPage from './page/Loader';
 
 const Home = lazy(() => import('./page/Home'));
 
 const withSuspense = (Component: React.ComponentType) => {
   return (
-    <Suspense fallback={<p>Loading</p>}>
+    <Suspense fallback={<LoadingPage />}>
       <Component />
     </Suspense>
   );

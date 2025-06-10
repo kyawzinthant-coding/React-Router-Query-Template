@@ -154,16 +154,26 @@ export default function ReactTemplateHome() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="inline-flex cursor-pointer items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5">
+            <a
+              href="https://github.com/kyawzinthant-coding/React-Router-Query-Template"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex cursor-pointer items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+            >
               <Github className="w-5 h-5" />
               Get Started
               <ChevronRight className="w-4 h-4" />
-            </button>
+            </a>
 
-            <button className="inline-flex cursor-pointer items-center gap-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-200">
+            <a
+              href="https://react-router-query-template.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex cursor-pointer items-center gap-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-200"
+            >
               <ExternalLink className="w-4 h-4" />
               Live Demo
-            </button>
+            </a>
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-16">
@@ -189,7 +199,7 @@ export default function ReactTemplateHome() {
             </div>
             <div className="p-6">
               <CodeBlock>{`# Clone the template
-git clone https://github.com/your-username/react-router-query-template
+git clone https://github.com/kyawzinthant-coding/React-Router-Query-Template
 
 # Install dependencies
 pnpm install
@@ -279,14 +289,24 @@ function UserProfile() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg">
+            <a
+              href="https://github.com/kyawzinthant-coding/React-Router-Query-Template"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg"
+            >
               <Download className="w-5 h-5" />
               Download Template
-            </button>
-            <button className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors">
+            </a>
+            <a
+              href="https://github.com/kyawzinthant-coding/React-Router-Query-Template"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors"
+            >
               <Github className="w-5 h-5" />
               View on GitHub
-            </button>
+            </a>
           </div>
         </div>
       </div>
