@@ -1,7 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { createBrowserRouter } from 'react-router';
 import LoadingPage from './page/Loader';
-import { exampleLoader } from './router/loader/data-loader';
 
 const Home = lazy(() => import('./page/Home'));
 
@@ -18,7 +17,7 @@ export const router = createBrowserRouter([
     path: '/',
     element: withSuspense(Home),
     errorElement: <p>Error Page</p>,
-    loader: exampleLoader,
+    // loader: exampleLoader,
   },
   {
     path: '/about',
